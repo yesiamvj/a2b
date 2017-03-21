@@ -1,0 +1,37 @@
+/* 
+    Created on : 23-Sep-2016, 02:15:35
+    Author     : Vijayakumar
+*/
+.siteFooter{padding:45px 0px 0px;background-color:#2c3e50;color:white;}
+.siteNameBot{color:whitesmoke;font-weight:bold;border-bottom:1px dotted silver;padding-bottom:7px;}
+.siteBotLinks{margin-top:20px;margin-left:20px;}
+.SBL_Itm{margin:10px 0px;}
+.siteBotLinks a{color:white;}
+.SBL_Itm i{margin-right:7px;}
+.ContactAddress{box-shadow:-5px 0px 5px rgba(0,0,0,0.5);padding:15px;padding-left:50px;}
+.SCCA_ttl{color:white;font-weight:bold;font-size:20px;margin-top:20px;//text-align:right;margin-bottom:20px;}
+.ContactAddress address{line-height:2;//text-align:right;}
+.UWI_Copyright_Holder{padding:15px 0px;margin-top:25px;color:darkgrey;text-align:center;//background-color:#34495e;}
+.UWI_Copyright_Holder i{margin:0px 5px 0px 15px;}
+.UWI_Copyright_Holder sup i{margin-left:1px;font-size:11px;}
+.UWI_Hint{font-size:12px;margin:15px 0px;}
+.coursesHoldr{position:absolute;left:25%;margin-top:44px;background-color:#2980b9;//display:none;display:none;}
+.coursesHoldr div:hover{background-color:#2980b9;}
+.coursesHoldr a{color:white;}
+.siteNavItms a{color:white;outline:none;}
+.siteNavItms a:hover{text-decoration:none;}
+.pageTtl{text-align:center;}
+#UnitedWebOfIndia{text-decoration:none;outline:none;}
+#navoo{max-width:45px;margin-top:-10px;}
+@media only screen and (max-width:500px)
+    {.siteNavItms{padding:0px;position:static !important;margin-left:0px;}
+.InsContactPane i{margin-right:5px;font-size:16px !important;}
+.about_Holder .container{padding-left:0px!important;;padding-right:0px!important;;}
+.siteSlogan{font-size:17px;}
+.container{padding:0px;}
+.container-fluid{padding:0px;}
+.InsContactPane{padding-top:10px;padding-bottom:20px;font-size:16px !important;}
+.coursesHoldr{position:static !important;margin:0px 0px 0px 0px;background-color:#3498db;}
+.siteMainTtl{font-size:23px;margin:0px;padding:10px 0px;//margin-left:-25px;}
+#navoo{max-height:30px;margin-top:-4px;}
+}

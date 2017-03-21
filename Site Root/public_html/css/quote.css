@@ -1,0 +1,170 @@
+/* 
+    Created on : 30-Sep-2016, 16:17:52
+    Author     : Vijayakumar
+*/
+body{
+    text-align: center;
+    font-family: segoe ui;
+    font-size: 15px;
+    padding: 0px;
+}
+.quoHoldr{
+    width: 65%;
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    text-align: left;
+    position: relative;
+    border-bottom: 5px solid navy;
+    padding-bottom: 10px;
+}
+.addrTtl{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.quoHeadr{
+   // background-color: #3498db;
+    width: 100%;
+    display: inline-flex;
+}
+.quoLogo{
+    width: 70%;
+    height: 200px;
+    display: inline-block;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.quoAddress{
+    width: inherit;
+    display: inline-block;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-right: 50px;
+    text-align:right;
+   // background-color: #2980b9;
+  //  color: white;
+    color: grey;
+    line-height: 1.5;
+}
+.quoTtl{
+    background-color: #e67e22;
+    color: white;
+    padding: 7px 25px;
+}
+.quoSalut{
+    margin:10px 15px;
+    color: #2980b9;
+}
+.quoInr{
+    padding: 10px;
+}
+.quoWelcmeTxt{
+    text-indent: 25px;
+    padding: 0px 25px;
+    line-height: 1.5;
+}
+.quoProdTable{
+    
+   border: 1px solid silver;
+    
+    margin: 20px;
+}
+.tbl_row{
+    padding: 5px 25px;
+  
+}
+.tbl_row:nth-child(even){
+    background-color: whitesmoke;
+}
+.tbl_row .tbl_col:last-child{
+    text-align: right;
+}
+.quoProdTtl{
+    background-color: #3498db;
+    color: white;
+    padding:5px 20px;
+    text-align: center;
+}
+.tbl_col{
+    display: inline-block;
+    
+}
+.prodName{
+    width: 88%;
+}
+
+.tbl_head{
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 25px;
+}
+.subTxt{
+    font-size: 13px;
+    color: grey;
+    margin-left: 5px;
+}
+.addrSubTtl{
+    //background-color: #f39c12;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    color: #27ae60;
+    padding:5px 25px;
+    border-bottom:1px solid #27ae60;
+}
+.addrTxt{
+    margin-top:0px;
+    font-size: 13px;
+}
+
+.smeLin{
+    display: inline-block;
+}
+.vatTxt{
+    text-align: right;
+    margin-right: 25px;
+    color:#f39c12;
+}
+.quoFinlTxt{
+    padding: 0px 25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.giftTxt{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    text-transform: lowercase;
+    font-family: cursive;
+}
+.termTtl{
+    background-color: #c0392b;
+    color: white;
+    padding: 7px 20px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.termItm{
+    margin: 0px 20px;
+    padding: 5px 5px;
+    border-bottom: 1px solid silver;
+   // color:;
+}
+.termItm:last-child{
+    border: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.tbl_head .prodPrice{
+    color: white;
+}
+.prodPrice{
+    color: #27ae60;
+}
+.spc_row{
+    display: none;
+}

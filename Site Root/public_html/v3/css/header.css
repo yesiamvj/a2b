@@ -1,0 +1,145 @@
+/* 
+    Created on : 21-Aug-2016, 14:59:48
+    Author     : Vijayakumar
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:segoe ui;
+    background-size: 10px;
+    background-blend-mode: difference;
+    background-attachment: fixed;
+    background-size: 0px;
+}
+.pageTopSection{
+    height: 600px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:top -10px center;
+   background-attachment: fixed;
+    margin-top: -125px;
+    z-index: 2;
+   
+   
+  
+}
+.pageHeadr{
+    background-color: rgba(256,256,256,0.8);
+    z-index: 30;
+    
+    
+}
+.pageHeadr:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.topLogo{
+    height: 120px;
+    width: 250px;
+    background-size:75% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    float:left;
+}
+.a_topNav{
+    display: inline-block;
+    padding: 15px 25px;
+    color:darkblue; 
+}
+.a_topNav{
+    text-decoration: none;
+    font-family:Sail;
+    font-size: 20px;
+    outline: none;
+    
+}
+.a_topNav:hover{
+    background-color: navy;
+    color: white;
+}
+.headr_centrTxt{
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    color: white;
+    font-family:cursive;
+    width: inherit;
+  position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 42%;
+    
+}
+@media only screen and (max-width:550px){
+    .a_topNav{
+        width: 100%;
+        font-size: 17px;
+        padding: 10px;
+        padding-left: 15px;
+        box-shadow: 0px 5px 5px rgba(0,0,100,0.2);
+    }
+    .topLogo{
+        height: 125px;
+        width: 100%;
+        float: none;
+        background-size: 70%;
+        background-position: center;
+        margin: 0px;
+    }
+    .pageContent{
+        margin-left: 5px !important;;
+        margin-right: 5px !important;
+        padding: 5px !important;
+    }
+    .pageContent .Sec_Inr{
+        display: block;
+    }
+   .pageContent .Sec_Itm{
+        width: 100%;
+        margin:15px 0px;
+       border: 0px;
+       background-size: 95%;
+    }
+    .PBSec_Inr{
+        display: block !important;;
+    }
+    .PBSec_Inr .PBSec_Itm{
+        width: 100%;
+        margin:15px 0px;
+    }
+    .siteFooter .col-lg-6{
+        width: 100% ;
+        display: block !important;;
+    }
+    .focFootr{
+        display: block !important;;
+    }
+    .siteContactAddress{
+        margin: 0px;
+        padding: 0px;
+    }
+    .siteContactAddress .f_cn_ph{
+        font-size: 16px;
+    }
+    .ContactAddress{
+        padding: 25px !important;;
+    }
+    .pageTopSection{
+        background-attachment: scroll;
+        background-position:100% 95%;
+        height: 275px;
+        
+    }
+    .pageLeftPane{
+        display: none;
+    }
+    .page_ordr_holdr{
+        z-index: 20;
+    }
+    .headr_centrTxt{
+        margin-top: 65px;
+        font-size: 20px;
+    }
+}

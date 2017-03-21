@@ -1,0 +1,58 @@
+/* 
+    Created on : 21-Aug-2016, 18:31:16
+    Author     : Vijayakumar
+*/
+.contactTwoSecHoldr{
+    display: inline-flex;
+}
+.CT_LeftPane{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.CT_SmallDesc{
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.CT_RightPane{
+    
+}
+.contactGMAP iframe{
+    width: 450px;
+    height: 300px;
+}
+.contactFormHoldr{
+    border: 1px solid silver;
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.CFH_Item{
+    margin: 15px 0px;
+  
+}
+
+.inp_cfh{
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px 0px;
+    font-size: 16px;
+}
+textarea.inp_cfh{
+    font-family: Helvatica;
+    padding-left: 10px;
+    height: 100px;
+}
+.inp_cfh_sub{
+    background-color: #FC7C35;
+    color: white;
+    border: 1px solid silver;
+    padding: 5px 15px 6px;
+    font-size: 17px;
+}
+.inp_cfh_sub:hover{
+    background-color: orange;
+    cursor: pointer;
+}

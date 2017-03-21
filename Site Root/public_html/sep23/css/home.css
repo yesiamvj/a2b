@@ -1,0 +1,203 @@
+/* 
+    Created on : 22-Sep-2016, 23:34:07
+    Author     : Vijayakumar
+*/
+.pageTopSection{
+    z-index: 10;
+}
+.pageContent{
+    margin:-50px 10%;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 0px 20px;
+    background-color: white;
+    padding-bottom: 30px;
+   
+}
+.Sec_Ttl{
+     font-family: Rochester;
+    font-size: 25px;
+    color:navy;
+    padding: 10px;
+    padding-top: 20px;
+}
+.Sec_Inr{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Sec_Itm{
+   height: 150px;
+   width: inherit;
+    margin: 10px;
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    border: 1px solid white;
+}
+.Sec_Itm_Lbl{
+    background-color: rgba(0,0,100,0.4);
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0px;
+    padding:5px;
+    text-align: center;
+    color: white;
+}
+.Sec_Itm:hover .Sec_Itm_Lbl{
+    background-color: rgba(0,0,100,0.75);
+    
+}
+.Sec_Itm:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    border: 1px solid transparent;
+    animation: 0.5s forwards secitm;
+}
+@keyframes secitm{
+    100%{
+        transform: scale(1.1);
+        background-size:auto 110%;
+    }
+}
+.Sec_Tip{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: grey;
+}
+.sec_more{
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.sec_more button{
+    background-color: whitesmoke;
+    border: none;
+    padding:5px 10px;
+    color: grey;
+    
+}
+.sec_more button:hover{
+    cursor: pointer;
+    color: blue;
+    //background-color: silver;
+}
+.Sec_Ttl i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: crimson;
+}
+.sec_off_txt{
+    background-color: rgba(256,256,256,0.75);
+    padding:5px 10px;
+    font-size: 14px;
+    color: crimson;
+}
+.abt_txt{
+    font-size: 12px;
+    text-indent: 20px;
+}
+.abt_ttl{
+    font-family: sail;
+}
+.abt_txt{
+    font-family: cursive; 
+}
+.page_ordr_holdr{
+    position: fixed;
+    right: 0px;
+    top: 45%;
+}
+.page_ordr_holdr button{
+    transform: rotate(-90deg);
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    margin-right: -35px;
+    padding:5px 15px;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+.page_ordr_holdr button:hover{
+    cursor: pointer;
+   
+    cursor: pointer;
+    animation: 0.5s forwards ordrbtn;
+}
+@keyframes ordrbtn{
+    100%{
+        background-color: green;
+        padding-bottom: 50px;
+       
+    }
+}
+.pageBottomContent{
+    margin-top: 100px;
+   
+}
+.pageBottomSection{
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.PBSec_Inr{
+    display: inline-flex;
+    width: 100%;
+}
+.PBSec_Itm{
+    height: 150px;
+    width: inherit;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: center;
+}
+.PBSec_Outr{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.PBSec_Ttl{
+    color: white;
+    font-size: 25px;
+    font-family: sail;
+    margin: 20px;
+}
+.PBSecItm_Ttl{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.siteFooter .container.focFootr{
+    display: inline-flex;
+    width: 100%;
+}
+.siteFooter .container.focFootr .col-lg-6{
+    width: inherit;
+} 
+.f_cn_sc_itm{
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+}
+.f_cn_ph{
+    margin: 10px;
+    font-size: 23px;
+}
+.f_cn_ph i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgba(256,256,256,0.4);
+}
+.siteShopFunc{
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5),#2c3e50);
+    font-size: 25px;
+    font-family: Rochester;
+    color: white;
+}
+.siteShopFunc i{
+    margin-right: 20px;
+}

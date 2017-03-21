@@ -1,0 +1,61 @@
+/* 
+    Created on : 21-Aug-2016, 14:59:48
+    Author     : Vijayakumar
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:segoe ui;
+    background-size: 10px;
+    background-blend-mode: difference;
+    background-attachment: fixed;
+    background-size: 0px;
+}
+.pageTopSection{
+    height: 600px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:top -10px center;
+   background-attachment: fixed;
+}
+.pageHeadr{
+    background-color: rgba(256,256,256,0.8);
+    
+}
+.pageHeadr:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.topLogo{
+    height: 120px;
+    width: 250px;
+    background-size:75% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    float:left;
+}
+.a_topNav{
+    display: inline-block;
+    padding: 15px 25px;
+    color:darkblue; 
+}
+.a_topNav{
+    text-decoration: none;
+    font-family:Sail;
+    font-size: 20px;
+    outline: none;
+    
+}
+.a_topNav:hover{
+    background-color: navy;
+    color: white;
+}
+.headr_centrTxt{
+    font-size: 30px;
+    margin-top: 200px;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    color: white;
+    font-family:cursive;
+}

@@ -1,0 +1,71 @@
+/* 
+    Created on : 21-Aug-2016, 18:55:26
+    Author     : Vijayakumar
+*/
+.projectItemHoldr{
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.projSlipOutr{
+   padding: 20px;
+    width: 185px;
+   
+}
+.projSlipInr{
+    height: 250px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.projName{
+    padding: 10px 0px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-family: yono;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;  
+    font-size: 18px;
+}
+.projLink{
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    position: absolute;
+     margin-top: -200px;
+    width: 100%;
+}
+.btn_projlink{
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+   
+}
+.btn_projlink:hover{
+    color: orange;
+    cursor: pointer;
+}
+.projSlipInr:hover{
+    cursor: pointer;
+    animation:  bacPick 1s forwards;
+}
+.projSlipInr:hover .projLink{
+   animation: projAnim 0.5s forwards;
+}
+@keyframes projAnim{
+    100%{
+        margin-top: 0px;
+    }
+}
+@keyframes bacPick{
+    100%{
+        background-size: 150%;
+    }
+}

@@ -14,11 +14,11 @@
         <link rel="stylesheet" href="css/header.css"/>
         <link rel="stylesheet" href="css/forfootr.css"/>
         <link rel="stylesheet" href="css/home.css"/>
-        <script src="js/jquery.min.js"></script>
     </head>
     <body style="//background-image: url(imgs/logowhitetrans2.png)">
         <div class="pageHolder">
-              <div class="pageHeadr col-lg-12">
+            <div class="pageTopSection col-lg-12" style="background-image: url(imgs/foods/i1.png)" >
+            <div class="pageHeadr">
                 <header>
                     <div class="topLogo" style="background-image: url(imgs/logowhitetrans2.png)">
                         
@@ -30,31 +30,26 @@
                                 Home
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 About Us
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Products
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Awards
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Gallery
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Contact
@@ -64,85 +59,11 @@
                 </header>
                 
             </div>
-            
-            <div class="pageTopSection col-lg-12" id="topSliderBlock"  >
-          
-                <div class="pageSliderItm" style="background-image: url(imgs/foods/i1.jpg)">
-                     <div class="headr_centrTxt col-lg-12">
-                        Welcome to A<sup>2</sup>B
-                    </div>
-                </div> 
-               
-                <div class="pageSliderItm" style="background-image: url(imgs/foods/i2.jpg)">
-                     <div class="headr_centrTxt col-lg-12">
-                       Enjoy Tasty & Healthy @ A<sup>2</sup>B
-                    </div>
-                </div> 
-               
-                <div class="pageSliderItm" style="background-image: url(imgs/foods/i3.jpg)">
-                     <div class="headr_centrTxt col-lg-12">
-                        Looking for a yummy snack?  @ A<sup>2</sup>B
-                    </div>
-                </div> 
-               
-                <div class="pageSliderItm" style="background-image: url(imgs/foods/i4.jpg)">
-                     <div class="headr_centrTxt col-lg-12">
-                        Visit our various Branches A<sup>2</sup>B
-                    </div>
-                </div> 
-               
-                <div class="pageSliderItm" style="background-image: url(imgs/foods/i5.jpg)">
-                     <div class="headr_centrTxt col-lg-12">
-                        South Indian Meals @ A<sup>2</sup>B
-                    </div>
-                </div>
                 
-                <div class="pageSliderNavHoldr">
-                    <div class="pageSliderNavItm_Outr"  onclick="changeSlider(1,1)">
-                        <div class="pageSliderNavItm"> </div>
-                    </div>
-                    <div class="pageSliderNavItm_Outr" onclick="changeSlider(2,1)"> 
-                        <div class="pageSliderNavItm" > </div>
-                    </div>
-                    <div class="pageSliderNavItm_Outr"  onclick="changeSlider(3,1)">
-                        <div class="pageSliderNavItm"> </div>
-                    </div>
-                    <div class="pageSliderNavItm_Outr" onclick="changeSlider(4,1)"> 
-                        <div class="pageSliderNavItm" > </div>
-                    </div>
-                    <div class="pageSliderNavItm_Outr"  onclick="changeSlider(5,1)">
-                        <div class="pageSliderNavItm"> </div>
-                    </div>
-                   
-                    
-                    
-                  
-                   
+                <div class="headr_centrTxt">
+                    Welcome to A<sup>2</sup>B
                 </div>
-               
-             </div>
-            <div class="pageNewItmHoldr">
-                <div class="PNI_Inr">
-                <div class="PNI_ttl">
-                    New Launch !
-                </div> 
-                <div class="PNI_SubTtl">
-                    Introducing <span class="PNI_Name">BAKLAWA</span>
-                </div>
-                <div class="PNI_ImgHoldr" style="background-image: url(imgs/trend/newItm.jpg)">
-                    
-                </div>
-                    <div class="PNI_ButnHoldr">
-                        <button id="buyNowBtn">
-                            Order Now
-                        </button>
-                        <button id="closeBtnn" onclick="$('.pageNewItmHoldr').slideUp()">
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
+        </div>
             <div class="pageLeftPane">
                 
                  <div class="leftPaneItm leftPaneLogo" style="background-image: url(imgs/logowhitetrans2.png)">
@@ -384,7 +305,7 @@
                 
             </div>
             <div class="pageBottomContent  col-lg-12">
-                <div class="pageBottomSection" style="background-image: url(imgs/foods/i3.jpg)">
+                <div class="pageBottomSection" style="background-image: url(imgs/foods/i3.png)">
                     <div class="PBSec_Outr">
                     <div class="PBSec_Ttl">
                         Our Other Services
@@ -408,7 +329,7 @@
                     </div>
                     </div>
                      <div class="siteShopFunc">
-    <i class="fa fa-coffee"></i> Open Everyday 7 AM - 11 PM
+    <i class="fa fa-coffee"></i> Open Everyday 8 AM - 8 PM
 </div>
                 </div>
                
@@ -523,69 +444,5 @@
         </div>
        
         </div>
-        
-        <script>
-            i=1;
-            timOt=0;
-            bacCol=new Array("rgba(256,256,256,0.8)","rgba(256,256,256,0.8)","rgba(256,256,256,0.8)","rgba(256,256,256,0.8)","rgba(256,256,0,0.8)");
-                
-            $(window).load(function(){
-               //setInterval(function(){ sliderStart(); }, 5000);
-               timOt= setTimeout(sliderStart,5000);
-            });
-            
-            function sliderStart(){
-              //  var backImgUrl=$('#topSliderBlock').css('background-image');
-                //$('#topSliderBlock').animate({'background-size':'0%'});
-                
-                if(i==5){
-                    i=1;
-                }
-                else{
-                    i++;
-                }
-                 changeSlider(i,0);
-              //  $('#topSliderBlock').css({'background-image':'url(imgs/foods/i'+i+'.png)'});
-              //  $('#topSliderBlock').animate({'background-size':'100%'});
-                console.log(" i  value is "+i);
-               // alert($('#topSliderBlock').css('background-image'));
-            }
-            function changeSlider(j,typ){
-                
-                if(typ==0){
-                    i=j;
-                   if(i==1){
-                     prev=5;
-                    }
-                    else{
-                        prev=i-1;
-                    }
-                }
-                else{
-                    prev=i;
-                     i=j;
-                }
-                
-                
-                
-                   //pageHeadr
-                 $('.pageSliderNavItm_Outr:nth-child('+i+') .pageSliderNavItm').css({'background-color':'crimson'});
-                 $('.pageSliderNavItm_Outr:not(:nth-child('+i+')) .pageSliderNavItm').css({'background-color':'transparent'});
-                 
-                 $('.pageSliderItm:nth-child('+prev+') .headr_centrTxt').hide();
-                 $('.pageSliderItm:nth-child('+i+') .headr_centrTxt').show();
-                
-                $('.pageSliderItm:not(:nth-child('+i+'))').css({'z-index':'1'});
-                 $('.pageSliderItm:not(:nth-child('+prev+'))').hide();
-                $('.pageSliderItm:nth-child('+prev+')').css({'z-index':'2'});
-                $('.pageSliderItm:nth-child('+i+')').hide().css({'margin-left':'100%','z-index':'3'}).show().animate({'margin-left':'0px'});
-                $('.pageHeadr').css({'background-color':bacCol[i-1]});
-        if(timOt){
-                 clearTimeout(timOt);
-            }
-           
-            timOt= setTimeout(sliderStart,5000);
-            }
-        </script>
     </body>
 </html>

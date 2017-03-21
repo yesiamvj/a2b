@@ -30,31 +30,26 @@
                                 Home
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 About Us
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Products
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Awards
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Gallery
                             </div>
                         </a>
-                        <br>
                         <a href="#" class="a_topNav">
                             <div class="topNavLink">
                                 Contact
@@ -64,7 +59,6 @@
                 </header>
                 
             </div>
-            
             <div class="pageTopSection col-lg-12" id="topSliderBlock"  >
           
                 <div class="pageSliderItm" style="background-image: url(imgs/foods/i1.jpg)">
@@ -121,27 +115,6 @@
                 </div>
                
              </div>
-            <div class="pageNewItmHoldr">
-                <div class="PNI_Inr">
-                <div class="PNI_ttl">
-                    New Launch !
-                </div> 
-                <div class="PNI_SubTtl">
-                    Introducing <span class="PNI_Name">BAKLAWA</span>
-                </div>
-                <div class="PNI_ImgHoldr" style="background-image: url(imgs/trend/newItm.jpg)">
-                    
-                </div>
-                    <div class="PNI_ButnHoldr">
-                        <button id="buyNowBtn">
-                            Order Now
-                        </button>
-                        <button id="closeBtnn" onclick="$('.pageNewItmHoldr').slideUp()">
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
             
             <div class="pageLeftPane">
                 
@@ -523,7 +496,6 @@
         </div>
        
         </div>
-        
         <script>
             i=1;
             timOt=0;
@@ -572,9 +544,8 @@
                  $('.pageSliderNavItm_Outr:nth-child('+i+') .pageSliderNavItm').css({'background-color':'crimson'});
                  $('.pageSliderNavItm_Outr:not(:nth-child('+i+')) .pageSliderNavItm').css({'background-color':'transparent'});
                  
-                 $('.pageSliderItm:nth-child('+prev+') .headr_centrTxt').hide();
-                 $('.pageSliderItm:nth-child('+i+') .headr_centrTxt').show();
-                
+                 
+                 
                 $('.pageSliderItm:not(:nth-child('+i+'))').css({'z-index':'1'});
                  $('.pageSliderItm:not(:nth-child('+prev+'))').hide();
                 $('.pageSliderItm:nth-child('+prev+')').css({'z-index':'2'});

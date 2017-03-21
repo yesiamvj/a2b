@@ -1,0 +1,90 @@
+/* 
+    Created on : 21-Aug-2016, 17:29:48
+    Author     : Vijayakumar
+*/
+.pageTwoSecHoldr{
+    display: inline-flex;
+    padding: 0px 50px;
+}
+.leftPane{
+    padding: 0px 20px;
+}
+.serviceTtl{
+    margin-top: 40px;
+    font-family: yono;
+    font-size: 39px;
+    font-weight: bold;
+}
+.serviceImg{
+    height: 350px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.serviceSideImg{
+    width: 250px;
+    height: 350px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.serviceTxt p{
+    margin: 25px 0px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.rightPane{
+    width: 50%;
+    padding: 20px;
+   
+}
+.contactStrip{
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border: 1px solid silver;
+    text-align: center;
+}
+.conatctStripTxt{
+    font-family: yono;
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+.contStripBtn button{
+    background-color: #FC7C35;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    padding: 5px 15px 6px;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+    font-size: 17px;
+    
+}
+.contStripBtn button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.slipHeader{
+    border: 1px solid silver;
+    margin: 13px 0px;
+    padding:12px 10px;
+    
+}
+.slipHeader:hover{
+    color: #FC7C35;
+    cursor: pointer;
+    border-color:#FC7C35;
+}
+.slipHeader .slipHTtl{
+    font-size: 20px;
+}
+.slipHeader .slipHico{
+    margin-left: 5px;
+}
+.smallTtl{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}

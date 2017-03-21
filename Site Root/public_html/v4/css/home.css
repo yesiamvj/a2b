@@ -1,0 +1,556 @@
+/* 
+    Created on : 22-Sep-2016, 23:34:07
+    Author     : Vijayakumar
+*/
+.pageTopSection{
+    z-index: 10;
+}
+.pageContent{
+    margin:-50px 10%;
+    z-index: 7;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 0px 20px;
+    background-color: white;
+    padding-bottom: 30px;
+    
+   
+}
+.Sec_Ttl{
+     font-family: Rochester;
+    font-size: 25px;
+    color:navy;
+    padding: 10px;
+    padding-top: 20px;
+}
+.Sec_Inr{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Sec_Itm{
+   height: 150px;
+   width: inherit;
+    margin: 10px;
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    border: 1px solid white;
+}
+.Sec_Itm_Lbl{
+    background-color: rgba(0,0,100,0.4);
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0px;
+    padding:5px;
+    text-align: center;
+    color: white;
+}
+.Sec_Itm:hover .Sec_Itm_Lbl{
+    background-color: rgba(0,0,100,0.75);
+    
+}
+.Sec_Itm:hover{
+    cursor: pointer;
+  //  box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    border: 1px solid transparent;
+    animation: 0.75s forwards secitm;
+}
+@keyframes secitm{
+    100%{
+        transform: scale(1.0);
+        //background-size:auto 90%;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    }
+}
+.Sec_Tip{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: grey;
+}
+.sec_more{
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.sec_more button{
+    background-color: whitesmoke;
+    border: none;
+    padding:5px 10px;
+    color: grey;
+    
+}
+.sec_more button:hover{
+    cursor: pointer;
+    color: blue;
+    //background-color: silver;
+}
+.Sec_Ttl i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: crimson;
+}
+.sec_off_txt{
+    background-color: rgba(256,256,256,0.75);
+    padding:5px 10px;
+    font-size: 14px;
+    color: crimson;
+}
+.abt_txt{
+    font-size: 12px;
+    text-indent: 20px;
+}
+.abt_ttl{
+    font-family: sail;
+}
+.abt_txt{
+    font-family: cursive; 
+}
+.page_ordr_holdr{
+    position: fixed;
+    right: 0px;
+    top: 45%;
+}
+.page_ordr_holdr button{
+    transform: rotate(-90deg);
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    margin-right: -35px;
+    padding:5px 15px;
+    padding-bottom: 10px;
+    z-index: 7;
+}
+.page_ordr_holdr button:hover{
+    cursor: pointer;
+   
+    cursor: pointer;
+    animation: 0.5s forwards ordrbtn;
+}
+@keyframes ordrbtn{
+    100%{
+        background-color: green;
+        padding-bottom: 50px;
+       
+    }
+}
+.pageBottomContent{
+    margin-top: 100px;
+    z-index: 30;
+   
+}
+.pageBottomSection{
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.PBSec_Inr{
+    display: inline-flex;
+    width: 100%;
+}
+.PBSec_Itm{
+    height: 150px;
+    width: inherit;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: center;
+}
+.PBSec_Outr{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.PBSec_Ttl{
+    color: white;
+    font-size: 25px;
+    font-family: sail;
+    margin: 20px;
+}
+.PBSecItm_Ttl{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.siteFooter .container.focFootr{
+    display: inline-flex;
+    width: 100%;
+}
+.siteFooter .container.focFootr .col-lg-6{
+    width: inherit;
+} 
+.f_cn_sc_itm{
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+}
+.f_cn_ph{
+    margin: 10px;
+    font-size: 23px;
+}
+.f_cn_ph i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgba(256,256,256,0.4);
+}
+.siteShopFunc{
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5),#2c3e50);
+    font-size: 25px;
+    font-family: Rochester;
+    color: white;
+}
+.siteShopFunc i{
+    margin-right: 20px;
+}
+.pageLeftPane{
+    position: fixed;
+     top: 0px;
+    background-color: navy;
+    padding-top: 20px;
+    
+    z-index: 1;
+    margin-top: 6%;
+     z-index: 5;
+    border-radius:0px 200px 20px 0px;
+    
+}
+.pageLeftPane:hover{
+    z-index: 50;
+}
+.leftPaneItm{
+    padding:20px 15px;
+    color: white;
+}
+.leftPaneItmLbl{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -30px;
+    background-color: whitesmoke;
+    color: navy;
+    padding:7px 10px;
+    display: none;
+    min-width: 100px;
+    font-family: sail;
+    font-size: 20px;
+  
+    
+}
+.leftPaneItm i{
+    
+    font-size: 25px;
+}
+.leftPaneItm:hover{
+    cursor: pointer;
+    background-color: white;
+    color: navy;
+}
+.leftPaneItm:hover i{
+    animation: 0.5s forwards lpitm;
+}
+@keyframes lpitm{
+    100%{
+     transform: scale(1.3);
+    }
+}
+.leftPaneItm:hover .leftPaneItmLbl{
+    display: block;
+    animation: 0.2s forwards lplbl;
+}
+@keyframes lplbl{
+    100%{
+        margin-left: 37px;
+    }
+}
+.siteFooter{
+    z-index: 40;
+}
+.pageBottomContent{
+    padding: 0px;
+}
+/* .pageLeftPane{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    //right: 0px;
+    background-color: rgba(0,0,100,0.7);
+        z-index: 1;
+} */
+/* .leftPaneItm{
+    display: inline-block;
+    padding:15px 25px;
+
+} */
+.leftPaneLogo{
+    width: 100%;
+    float: left;
+    height:80px;
+    background-size:auto 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -20px;
+    display: none;
+    
+}
+.leftPaneAr{
+    height: 0px;
+    width: 0px;
+    border-bottom: 55.5px solid rgba(0,0,100,0.7);
+    display: inline-block;
+    border-top: 0px solid transparent;
+    
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+    
+}
+.pageTopSection{
+    z-index: 6;
+    padding: 0px;
+    overflow-x: hidden;
+   width: 100%;
+    display: inline-block;
+}
+.pageSliderItm{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center 0px;
+}
+.pageSliderItm:not(:first-child){
+    display: none;
+    margin-left: 100%;
+}
+.pageSliderNavHoldr{
+    position: absolute;
+    bottom: 100px;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+}
+.pageSliderNavItm{
+    height: 9px;
+    width:9px;
+    background-color:transparent;
+    display: inline-block;
+   
+    border: 2px solid yellow;
+    border-radius: 100px;
+}
+.pageSliderNavItm_Outr:hover .pageSliderNavItm{
+   
+    background-color: yellow;
+}
+.pageSliderNavItm_Outr:hover{
+    cursor: pointer;
+}
+.pageSliderNavItm_Outr{
+    display: inline-block;
+    padding: 10px 5px;
+}
+.pageSliderNavItm_Outr:nth-child(1) .pageSliderNavItm{
+    background-color: green;
+}
+.Sec_Itm{
+    border-radius: 300px;
+    height: 175px;
+    width: 250px !important;;
+    overflow: hidden;
+}
+.Sec_Itm_Lbl{
+    bottom: 20px;
+}
+.Sec_Itm{
+    
+}
+.sec_off_txt{
+    margin-top: 50px;
+}
+.Sec_Ttl{
+    border-bottom: 2px dotted navy;
+    margin-bottom: 25px;
+}
+.pageContent{
+    background-color: rgba(256,256,256,0.95);
+}
+.pageNewItmHoldr{
+    position: fixed;
+   top: 40px;
+   left: 0px;
+    right: 0px;
+    
+    z-index: 300;
+   
+    text-align: center;
+}
+.PNI_Inr{
+    display: inline-block;
+    background-color: white;
+     padding: 10px 25px;
+    box-shadow: 0px 20px 120px rgba(0,0,0,0.5);
+}
+.PNI_ttl{
+    color: orange;
+    font-size: 27px;
+    font-family: Rochester;
+    margin-bottom: 10px;
+    
+}
+.PNI_Name{
+    font-family:cursive ;
+    font-size: 20px;
+    color: navy;
+}
+.PNI_SubTtl{
+    margin-bottom: 20px;
+}
+.PNI_ImgHoldr{
+    height: 250px;
+    width: 300px;
+    background-size: 100%;
+    background-position: center;
+}
+.PNI_ButnHoldr button{
+    margin-top: 10px;
+    border: none;
+    padding:3px 15px;
+}
+#buyNowBtn{
+    background-color: green;
+    color: white;
+}
+#closeBtnn{
+    background-color: crimson;
+    color: white;
+    float: right;
+    margin-right: -25px;
+}
+#buyNowBtn:hover{
+    background-color: darkgreen;
+}
+
+@media only screen and (max-width:550px){
+    .a_topNav{
+        width: 100%;
+        font-size: 17px;
+        padding: 10px;
+        padding-left: 15px;
+        box-shadow: 0px 5px 5px rgba(0,0,100,0.2);
+    }
+    .topLogo{
+        height: 125px;
+        width: 100%;
+        float: none;
+        background-size: 70%;
+        background-position: center;
+        margin: 0px;
+    }
+    .pageContent{
+        margin-left: 5px !important;;
+        margin-right: 5px !important;
+        padding: 5px !important;
+    }
+    .pageContent .Sec_Inr{
+        display: block;
+    }
+   .pageContent .Sec_Itm{
+        width: 100%;
+        margin:15px 0px;
+       border: 0px;
+       background-size: 95%;
+    }
+    .PBSec_Inr{
+        display: block !important;;
+    }
+    .PBSec_Inr .PBSec_Itm{
+        width: 100%;
+        margin:15px 0px;
+    }
+    .siteFooter .col-lg-6{
+        width: 100% ;
+        display: block !important;;
+    }
+    .focFootr{
+        display: block !important;;
+    }
+    .siteContactAddress{
+        margin: 0px;
+        padding: 0px;
+    }
+    .siteContactAddress .f_cn_ph{
+        font-size: 16px;
+    }
+    .ContactAddress{
+        padding: 25px !important;;
+    }
+    .pageTopSection{
+        background-attachment: scroll;
+        background-position:100% 95%;
+        height: 200px;
+        margin-top: 0px;
+        
+    }
+    .headr_centrTxt{
+        top: 0px;
+        font-size: 14px !important;;
+    }
+    .pageSliderNavHoldr{
+        bottom: 50px !important;;
+    }
+    .pageHeadr{
+        background-color: rgba(256,256,256,0.8) !important;;
+    }
+    
+    .pageLeftPane{
+        display: none;
+    }
+    .page_ordr_holdr{
+        z-index: 20;
+    }
+    .headr_centrTxt{
+        margin-top: 65px;
+        font-size: 20px;
+    }
+    .Sec_Inr{
+        text-align: center;
+    }
+    .Sec_Itm{
+        width: 90% !important;
+        display: inline-block;
+        margin: 0px !important;;
+    }
+    .pageNewItmHoldr{
+        padding: 10px;
+        top: unset !important;;
+       bottom:5px;
+    }
+    .PNI_Inr{
+        
+        width: 100%;
+        padding: 10px 5px;
+    }
+    .PNI_ImgHoldr{
+        width: inherit;
+        height: 150px;
+    }
+    .PNI_Name{
+        font-size: 16px;
+    }
+    .PNI_SubTtl{
+        margin: 5px;
+    }
+    .PNI_ttl{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    #closeBtnn{
+        margin-right: 0px;
+        float: none;
+    }
+}
